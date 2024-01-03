@@ -1,0 +1,33 @@
+function sectiDveCisla(a, b) 
+{
+  return a + b;
+}
+function odectiDveCisla(a, b) {
+  return a - b;
+}
+function vynasobDveCisla(a, b) {
+  return a * b;
+}
+function podilDvouCisel(a, b) { 
+    return a / b;
+}
+function jeSudeCislo(cislo) {
+  return cislo % 2 === 0;
+}
+function zaokrouhliNaCele(cislo) {
+  return Math.round(cislo);
+}
+function nahodneCislo() {
+  return Math.random();
+}
+function odmocnina(cislo) {
+  return Math.sqrt(cislo);
+}
+function kladneZaporneNula(cislo) {
+  if (cislo > 0) return 'Kladné';
+  else if (cislo < 0) return 'Záporné';
+  else return 'Nula';
+}
+function dvojnasob(cislo) {
+  return cislo * 2;
+}
